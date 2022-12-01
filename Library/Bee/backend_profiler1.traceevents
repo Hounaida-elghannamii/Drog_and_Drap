@@ -1,0 +1,515 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662469534345107, "dur":2666, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469534347798, "dur":119, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662469534347937, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662469534347983, "dur":356, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662469534348388, "dur":1240, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469534349629, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403151, "dur":199, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403351, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403374, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403379, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403392, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403395, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403406, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403410, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403423, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403447, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538403453, "dur":2822, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662469534348977, "dur":700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534349681, "dur":7372, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534357073, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662469534357075, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534357193, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662469534357199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534362634, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662469534366246, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1662469534366325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534366639, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1662469534369211, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534369284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534369619, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534371636, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534371763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534371857, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534373297, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534373423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534373713, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534375111, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534375174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534375287, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534376454, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534376512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534376520, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1662469534377951, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1662469534378010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534378099, "dur":5015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1662469534383193, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534383255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534383262, "dur":158704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534542031, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534542093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534542105, "dur":133196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534675348, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534675403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534675411, "dur":68272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534743746, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534743810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534743820, "dur":47717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534791587, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534791648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534791657, "dur":48622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534840327, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469534840373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469534840383, "dur":240296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535080742, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535080797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535080806, "dur":75205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535156095, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535156155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535156165, "dur":53609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535209827, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535209879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535209888, "dur":86289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535296236, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535296286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535296295, "dur":42324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535338668, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535338719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535338754, "dur":29814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535368620, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535368671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535368686, "dur":46056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535414781, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535414830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535414839, "dur":38242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535453131, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535453207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535453217, "dur":63136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535516406, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535516459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535516467, "dur":26484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535543004, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535543056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535543066, "dur":57609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535600735, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535600792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535600801, "dur":31039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535631917, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535631965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535631974, "dur":63961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535695989, "dur":158808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535854805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535854817, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535856253, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469535856316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469535856327, "dur":385045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536241438, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536242445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469536242456, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536243983, "dur":103005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536346994, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469536347028, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536348766, "dur":1196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536349999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469536350011, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536351352, "dur":105096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536456455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469536456468, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536457814, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536457873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469536457881, "dur":211687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536669614, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469536669662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469536669671, "dur":462866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469537132591, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469537132661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469537132674, "dur":92889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469537225619, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469537225677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469537225752, "dur":535733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469537761537, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469537761586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662469537761595, "dur":610890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662469538372545, "dur":30627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534349039, "dur":684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534349723, "dur":7379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534357103, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662469534357222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534392654, "dur":37378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662469534430097, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534430150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534430214, "dur":116195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534546459, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534546509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534546521, "dur":61875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534608445, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534608502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534608511, "dur":57801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534666373, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534666438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534666448, "dur":138392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534804890, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534804942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534804952, "dur":61924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534866928, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534866984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534866993, "dur":48644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534915687, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469534915739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469534915748, "dur":94943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535010745, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535010812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535010833, "dur":70707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535081601, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535081658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535081668, "dur":69866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535151588, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535151640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535151650, "dur":41245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535192944, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535192992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535193001, "dur":54655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535247707, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535247756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535247764, "dur":83530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535331352, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535331413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535331424, "dur":173533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535505014, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535505081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535505091, "dur":95490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535600642, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535600715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535600725, "dur":53683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535654457, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535654508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535654517, "dur":78786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535733358, "dur":164224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535897588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469535897599, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469535899622, "dur":517077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469536416704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469536416714, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469536418472, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469536418521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469536418529, "dur":836572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469537255161, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469537255216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469537255227, "dur":369281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469537624569, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469537624634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469537624645, "dur":268647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469537893353, "dur":264241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469538157601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662469538157612, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662469538159388, "dur":243771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534349090, "dur":647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534349737, "dur":7327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534357073, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1662469534357188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534364274, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1662469534366349, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1662469534366524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534366773, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1662469534369289, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662469534369380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534369661, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662469534372257, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1662469534372542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534374170, "dur":35215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1662469534409498, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1662469534409570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534410067, "dur":16344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1662469534426469, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534426525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534427064, "dur":119492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534546601, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534546660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534546670, "dur":61799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534608518, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534608673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534608682, "dur":66161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534674900, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534674965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534674978, "dur":34995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534710031, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534710132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534710140, "dur":35117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534745316, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534745379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534745390, "dur":71120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534816562, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534816610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534816620, "dur":59313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534875985, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534876090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534876100, "dur":87363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534963514, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469534963569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469534963606, "dur":140717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535104398, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535104488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535104497, "dur":40174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535144742, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535144804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535144814, "dur":37720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535182582, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535182638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535182649, "dur":41456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535224163, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535224219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535224228, "dur":41479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535265769, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535265966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535265977, "dur":52444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535318469, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535318516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535318539, "dur":96189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535414777, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535414832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535414839, "dur":101461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535516351, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535516400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535516410, "dur":28320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535544783, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535544838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535544876, "dur":103047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535647972, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535648021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469535648033, "dur":218489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469535866573, "dur":213046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536079625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536079639, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536081692, "dur":56005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536137702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536137712, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536138996, "dur":92242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536231246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536231258, "dur":9545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536240875, "dur":98043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536338924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536338934, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536340602, "dur":42034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536382643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536382656, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536384052, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536385293, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536385307, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536387555, "dur":103485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536491046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536491058, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536492755, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536492806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536492816, "dur":182718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536675591, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536675678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536675688, "dur":290343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536966089, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469536966147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469536966157, "dur":159904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537126117, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537126176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469537126187, "dur":279020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537405259, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537405312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469537405322, "dur":128532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537533919, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537533985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469537533994, "dur":226972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537761031, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537761085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469537761094, "dur":70114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537831269, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469537831330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662469537831340, "dur":571701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662469538403095, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1662469538403097, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534349136, "dur":614, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534349750, "dur":7351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534357102, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662469534357215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534364632, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662469534366455, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662469534366528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534366641, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662469534369179, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662469534369231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534370106, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662469534371666, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662469534371768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534371866, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662469534373302, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662469534373386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534373686, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662469534376161, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662469534376234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534376306, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662469534378066, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534378142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534378818, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534381256, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534381318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534381390, "dur":10631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534392248, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662469534392339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534392347, "dur":10221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662469534402627, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11).exe" }}
+,{ "pid":12345, "tid":4, "ts":1662469534402690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534402698, "dur":140608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11).exe" }}
+,{ "pid":12345, "tid":4, "ts":1662469534543363, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534543439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534543449, "dur":95742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534639254, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534639318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534639328, "dur":69796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534709507, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534709696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534709706, "dur":35567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534745324, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534745381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469534745390, "dur":98254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469534843691, "dur":210158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535053855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535053866, "dur":5500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535059415, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535059477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535059486, "dur":44400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535103947, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535104401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535104418, "dur":72426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535176897, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535176946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535176956, "dur":32265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535209273, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535209341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535209351, "dur":58533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535267947, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535267999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535268009, "dur":34194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535302259, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535302375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535302384, "dur":36298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535338722, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535338770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535338780, "dur":46569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535385399, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535385450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535385459, "dur":66715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535452223, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535452278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535452286, "dur":59949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535512287, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535512404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535512414, "dur":180385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535692853, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535692905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469535692915, "dur":92526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469535785501, "dur":344405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536129916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469536129933, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536132468, "dur":250223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536382695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469536382704, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536387660, "dur":1044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536388711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469536388721, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536389787, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536389835, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469536389850, "dur":179128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536569039, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469536569099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469536569122, "dur":522088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537091268, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537091327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469537091338, "dur":95249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537186658, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537186707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469537186716, "dur":350357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537537130, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537537187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469537537196, "dur":195607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537732851, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469537732897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469537732912, "dur":267414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662469538000383, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1662469538000543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538001132, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1662469538002390, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662469538002441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538002503, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662469538005045, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538005107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538005116, "dur":6678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538011842, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538011887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538011895, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538013114, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538013158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538013166, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538017000, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538017044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538017052, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538018339, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662469538018386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538018395, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662469538019966, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538020010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538020019, "dur":11507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538031600, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538031646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538031654, "dur":24431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538056217, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538056289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538056299, "dur":15877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538072234, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538072302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538072323, "dur":5321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538077693, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662469538077837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538077845, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662469538078990, "dur":1389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1662469538080385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538080395, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1662469538081639, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538081684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538081693, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538084301, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538084347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538084355, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538086398, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538086446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538086453, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538088162, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1662469538088214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538088222, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1662469538089492, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538089540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538089548, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538090927, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1662469538090972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538090980, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1662469538092416, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538092462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538092470, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538093867, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1662469538093936, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538093948, "dur":17278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1662469538111280, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538111331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538111340, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662469538112805, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1662469538112852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538112860, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1662469538114535, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538114594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538114606, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662469538116363, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1662469538116413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538116422, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1662469538117859, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1662469538118016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662469538118025, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hounaida/Desktop/Drog and Drap/My project (11)_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1662469538119307, "dur":283859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662469538412512, "dur":3409, "ph":"X", "name": "ProfilerWriteOutput" }
+,
